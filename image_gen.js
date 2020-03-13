@@ -90,7 +90,7 @@ function loadText() {
 		console.log("Waiting for images...")
 	} else {
 		var qtag = document.createElement("script");
-		qtag.src = "http://api.forismatic.com/api/1.0/?method=getQuote&format=jsonp&jsonp=parseQuote&lang=ru";
+		qtag.src = "https://api.forismatic.com/api/1.0/?method=getQuote&format=jsonp&jsonp=parseQuote&lang=ru";
 		document.head.appendChild(qtag);
 		drawText();
     }
